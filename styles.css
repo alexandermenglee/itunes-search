@@ -1,5 +1,6 @@
 *, *:before, *:after {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -7,6 +8,19 @@ body {
 }
 
 .add-border {
-  border: 2px black solid;
+  border-bottom: 1px #D1DBE8 solid;
 }
 
+a {
+  text-decoration: none;
+}
+
+#results {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+#user-search {
+  border:#E6F8FF 2px solid;
+}
